@@ -1,0 +1,130 @@
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #E6E6E6;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-weight: bold;
+	font-size: 70px;
+	color:#33331A;
+	margin: 2px 0px 14px 0px;
+	padding: 15px 15px 25px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#body{
+	margin: 10px 15px 20px 15px;
+}
+
+p.footer{
+	text-align: right;
+	font-size: 11px;
+	border-top: 1px solid #D0D0D0;
+	line-height: 32px;
+	padding: 0 10px 0 10px;
+	margin: 20px 0 0 0;
+}
+
+#container{
+	text-align: center;
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+	border-radius: 10px;
+	padding: 10px 10px 0px 10px;
+
+}
+.notes{
+	width: 250px;height:250px;
+	margin: 5px 5px 5px 5px;
+	padding: 0px 5px 5px 5px;
+	text-align: center;
+	
+}
+#meat{
+	display: inline-block; vertical-align: top;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	border: 1px solid #D0D0D0;
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+	background-color: #C2C2AD;
+	border-radius: 5px;
+	margin-top: 8px;
+	width: 250px;height:250px;
+	margin: 5px 5px 5px 5px;
+	padding: 0px 5px 5px 5px;
+	text-align: center;
+
+}
+#meat textarea{
+	border: hidden;
+	border-radius: 5px;
+	background-color: #EDEDE6;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	padding: 5px 5px 5px 5px;
+}
+#meat input{
+	border: hidden;
+	border-radius: 5px;
+	background-color: #1F1F14;
+	color: #D2D2D0;
+	padding: 5px 5px 5px 5px;
+	font-size: small;
+	font-style: italic;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+#bottom{
+	text-align: center;
+	margin: 10px 0px 10px 25px;
+	padding: 20px 10px 10px 10px;
+	border-top: 1px solid #D0D0D0;
+}
+#bottom textarea{
+	border: groove;
+	border-radius: 5px;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: grey;
+	padding: 3px 3px 3px 3px;
+}
+#tit{
+	border: groove;
+	border-radius: 5px;
+	width: 287px;
+	padding: 3px 3px 3px 3px;
+	color: grey;
+	font-weight: bold;
+}
+#sub{
+	border: hidden;
+	border-radius: 5px;
+	background-color: #1F1F14;
+	color: #D2D2D0;
+	padding: 8px 8px 8px 8px;
+	font-weight: bold;
+}
